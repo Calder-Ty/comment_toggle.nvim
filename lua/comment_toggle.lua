@@ -46,10 +46,8 @@ local special_chars = {
 
 local escape = function (str)
 	local escaped = {}
-	print(str)
 	for i=1, #str do
 		local char = str:sub(i,i)
-		print("Char is: " .. char)
 		if special_chars[char] then
 			char = "%"..char
 		end
@@ -87,10 +85,8 @@ M.comment_toggle = function(start, fin)
 	local lines = vim.api.nvim_buf_get_lines(0, start-1, fin, false)
 	local on = true
 	local pat = "^%s*" .. escape(comment_leader) .. " "
-	print(pat)
 	for i=1, #lines do
 		if string.find(lines[i], pat) then
-			print(lines[i])
 			on = false
 			break
 		end
