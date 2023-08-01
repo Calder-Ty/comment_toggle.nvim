@@ -23,6 +23,7 @@ Currently comments are defined for the following filetypes:
 - lua
 - mail
 - nim
+- odin
 - perl
 - php
 - python

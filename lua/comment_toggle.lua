@@ -5,7 +5,7 @@ M = {}
 local var_name="comment_toggle_comment_leader"
 
 local comment_strings = {
-	["//"] = {"c", "cpp", "java", "scala", "rust", "cs", "go", "javascript", "typescript", "php"},
+	["//"] = {"c", "cpp", "java", "scala", "rust", "cs", "go", "javascript", "typescript", "php", "odin"},
 	["#"] = {"sh", "ruby", "python", "conf", "fstab", "yaml", "yml", "Dockerfile", "gitcommit", "nim", "perl", "r"},
 	["%"] = {"tex"},
 	[">"] = {"mail"},
