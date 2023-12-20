@@ -65,7 +65,6 @@ local toggle_on = function(start, fin, comment_leader, lines)
 		if line ~= "" then
 			local i, j = string.find(line, "%S")
 			line = string.sub(line, 1, i - 1) .. comment_leader .. " " .. string.sub(line, j)
-			print(line)
 		end
 		table.insert(modified, line)
 	end
