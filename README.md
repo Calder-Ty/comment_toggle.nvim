@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This project has been archived. Use the natively supported `gc` or `gcc` keybinds
+
 # comment_toggle.nvim
 
 Vim Plugin for quick togling of comments. Adds command `:CommentToggle`, which detects the presence
